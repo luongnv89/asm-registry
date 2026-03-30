@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T00:00:00Z",
+  "generated_at": "2026-03-30T06:01:41.675Z",
   "manifests": [
     {
       "name": "skill-auditor",
@@ -9,7 +9,11 @@
       "commit": "474ed376930b4ec3b7e67208000997b8ee0255ac",
       "version": "1.0.0",
       "license": "MIT",
-      "tags": ["security", "audit", "trust"],
+      "tags": [
+        "security",
+        "audit",
+        "trust"
+      ],
       "security_verdict": "pass",
       "published_at": "2026-03-28T00:00:00Z"
     }
