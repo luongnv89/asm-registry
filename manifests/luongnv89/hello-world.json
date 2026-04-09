@@ -5,7 +5,8 @@
   "repository": "https://github.com/luongnv89/asm",
   "commit": "dc30e100c82907907540def0f4458071586e6762",
   "security_verdict": "pass",
-  "published_at": "2026-04-09T19:22:05.557Z",
+  "published_at": "2026-04-09T19:34:35.873Z",
+  "skill_path": "skills/hello-world",
   "version": "1.0.0",
   "license": "MIT",
   "tags": [
