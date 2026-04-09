@@ -1,0 +1,16 @@
+{
+  "name": "hello-world",
+  "author": "luongnv89",
+  "description": "A minimal test skill that greets the user and demonstrates the ASM publish workflow.",
+  "repository": "https://github.com/luongnv89/asm",
+  "commit": "107b9a3254e246a9b17bac380cf8d7ae9a0d9573",
+  "security_verdict": "pass",
+  "published_at": "2026-04-09T19:39:00.793Z",
+  "skill_path": "skills/hello-world",
+  "version": "1.0.0",
+  "license": "MIT",
+  "tags": [
+    "test",
+    "demo"
+  ]
+}
