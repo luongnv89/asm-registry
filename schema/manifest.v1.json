@@ -38,17 +38,29 @@
     "repository": {
       "type": "string",
       "description": "Full GitHub URL of the skill repository",
-      "pattern": "^https://github\\.com/[a-zA-Z0-9_-]+/[a-zA-Z0-9._-]+$"
+      "pattern": "^https://github\.com/[a-zA-Z0-9_-]+/[a-zA-Z0-9._-]+$"
     },
     "commit": {
       "type": "string",
       "description": "Pinned commit SHA at publish time",
       "pattern": "^[0-9a-f]{40}$"
     },
+    "skill_path": {
+      "type": "string",
+      "description": "Relative path from the repository root to the skill directory (for multi-skill repos)",
+      "minLength": 1,
+      "maxLength": 256,
+      "not": {
+        "anyOf": [
+          { "pattern": "\.\." },
+          { "pattern": "^/" }
+        ]
+      }
+    },
     "version": {
       "type": "string",
       "description": "Semantic version if available",
-      "pattern": "^\\d+\\.\\d+\\.\\d+(-[a-zA-Z0-9.]+)?(\\+[a-zA-Z0-9.]+)?$"
+      "pattern": "^\d+\.\d+\.\d+(-[a-zA-Z0-9.]+)?(\+[a-zA-Z0-9.]+)?$"
     },
     "license": {
       "type": "string",
