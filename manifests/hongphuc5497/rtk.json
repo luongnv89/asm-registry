@@ -1,0 +1,12 @@
+{
+  "name": "rtk",
+  "author": "hongphuc5497",
+  "description": "RTK (Rust Token Killer) — CLI proxy that compresses noisy shell output by 60-90%. Use when piping commands through rtk for token savings. Not for interactive commands (REPLs, prompts), shell composition, or when exact stdout/stderr is needed.",
+  "repository": "https://github.com/hongphuc5497/skills",
+  "commit": "de21bf4eac0ed9fe8b67da105f09aaad3be82f1b",
+  "security_verdict": "warning",
+  "published_at": "2026-05-15T09:36:06.744Z",
+  "skill_path": "skills/rtk",
+  "version": "1.0.0",
+  "license": "MIT"
+}
