@@ -1,0 +1,12 @@
+{
+  "name": "bilig-workpaper",
+  "author": "gregkonush",
+  "description": "Use Bilig WorkPaper for spreadsheet-style formulas in Node.js services and AI agent tools without driving Excel or browser spreadsheet UIs.",
+  "repository": "https://github.com/proompteng/bilig",
+  "commit": "49f3dcac26be6d21c634fd38a014e09f85147c85",
+  "security_verdict": "pass",
+  "published_at": "2026-05-18T16:50:13.550Z",
+  "skill_path": "skills/bilig-workpaper",
+  "version": "0.1.0",
+  "license": "MIT"
+}
