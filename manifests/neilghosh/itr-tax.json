@@ -1,0 +1,12 @@
+{
+  "name": "itr-tax",
+  "author": "neilghosh",
+  "description": "Prepare and file an Indian ITR-2 (new regime) online for a salaried taxpayer with capital gains and foreign assets/income (RSU/ESPP, dividends + FTC/Form 67, Schedules CG/112A/FSI/TR/FA/AL). Not for old regime, ITR-1/3/4, or the offline utility.",
+  "repository": "https://github.com/neilghosh/skills",
+  "commit": "2de5ce80fe9cdee085ac109e8f2fcca32eab1542",
+  "security_verdict": "pass",
+  "published_at": "2026-07-12T05:09:59.874Z",
+  "skill_path": "skills\\itr-tax",
+  "version": "1.0.0",
+  "license": "MIT"
+}
